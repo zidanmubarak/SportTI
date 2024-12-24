@@ -903,6 +903,16 @@ td{
     background-color: #198754;
 }
 
+.d-flex {
+    display: flex;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.align-items-center {
+    align-items: center;
+}
+
 </style>
 <body>
 <section class="wrapper">
@@ -914,7 +924,13 @@ td{
     </div>
     <div class="container">
         <div class="card">
-            <div class="card-header">Data Pengguna</div>
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <span>Data Pengguna</span>
+                <form method="POST" action="logout.php">
+                    <button type="submit" class="btn btn-danger">Logout</button>
+                </form>
+            </div>
+
             <div class="card-body">
                 <!-- Search and Reset Form -->
                 <div class="search-add-container">

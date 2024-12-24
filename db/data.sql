@@ -1,8 +1,8 @@
 -- Membuat database (jika belum ada)
-CREATE DATABASE IF NOT EXISTS db_crud;
+CREATE DATABASE IF NOT EXISTS crud_db;
 -- Gunakan database hanya jika sudah berhasil dibuat
 DELIMITER ;;
-USE db_crud;;
+USE crud_db;;
 DELIMITER ;
 
 -- Membuat tabel untuk menyimpan data pendaftaran

@@ -37,6 +37,9 @@
                     <li class="nav__items">
                         <a href="#party" class="nav__link">Register</a>
                     </li>
+                    <li class="nav__items">
+                        <a href="public/crud.php" class="nav__link">Crud</a>
+                    </li>
                 </ul>
 
                 <div class="nav__close" id="nav-close">
@@ -131,7 +134,7 @@
                         Baik untuk anak-anak, remaja, maupun dewasa, kami hadir untuk menciptakan pengalaman olahraga 
                         yang tak terlupakan. 
                     </p>
-                    <a href="public/crud.php" class="button">Crud Data!!</a>
+                    <a href="#" class="button">Read More!!</a>
                 </div>
 
                 <img src="public/assets/img/about.png" alt="about image" class="about__img">
